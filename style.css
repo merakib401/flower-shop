@@ -1,4 +1,7 @@
-
+body{
+    padding: 0;
+    margin: 0;
+}
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 
@@ -218,3 +221,86 @@
 .promo-card.small {
   grid-column: 1 / 2;
 }
+
+
+/* footer style */
+
+.join {
+  background: url('assets/news-letter-bg.png') center/cover no-repeat;
+  padding: 80px 20px;   
+  text-align: center;
+  position: relative;
+  margin-top: 70px;
+ 
+}
+
+
+.join-us{
+  position: relative;
+  z-index: 1;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.join h2 {
+  font-size:50px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 1);
+}
+
+.join form {
+  display: flex;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.join input {
+  flex: 2;
+  padding: 15px;
+  border: none;
+  font-size: 1rem;
+}
+
+.join button:hover {
+  background: #c65900;
+}
+
+.footer {
+  padding: 50px 60px;
+ 
+}
+.footer-dis{
+    font-size: 22px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+   max-width: 1140px;
+  margin: 0 auto;
+  
+}
+
+.footer-links {
+  display: flex;
+  
+}
+ 
+
+.footer-links ul {
+  list-style: none;
+  
+}
+
+.footer-links ul li {
+ margin-bottom: 30px;
+  cursor: pointer;
+}
+
+.footer-social {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
