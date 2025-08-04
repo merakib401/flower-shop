@@ -1,0 +1,150 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.noto-serif {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  
+  font-style: normal;
+
+   
+}
+
+.inter {
+  font-family: "Inter", sans-serif;
+}
+
+
+
+.font-weight{
+    font-weight: bold;
+}
+.text-color{
+    color: rgba(233, 90, 8, 1);
+}
+
+.font-color{
+    color: #8987A1;
+}
+.display-flex{
+    display: flex;
+}
+ 
+/* naver style */
+.nav-items{
+    list-style: none;
+      
+}
+.navbar{
+    max-width: 1140px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    
+}
+
+.nav-links{
+    gap: 48px;
+}
+/* banner style */
+.banner{
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 120px;
+    margin-bottom: 100px;
+}
+
+.banner-title{
+    font-size: 65px;
+}
+.banner-dis{
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+
+/* Shop style */
+
+.shop {
+  text-align: center;
+}
+
+.shop h1 {
+  font-size: 50px;
+}
+
+.shop-dis{
+    color:  rgba(0, 0, 0, 0.5);
+    font-size: 22px;
+    max-width: 888px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+   max-width: 1140px;
+    margin: 0 auto;
+}
+
+.product-card {
+  overflow: hidden;
+}
+
+.product-card h2 {
+  font-size: 22px;
+  font-weight: normal;
+}
+
+.product-card .price {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.btn {
+    max-width: 270px;
+    background: rgba(233, 90, 8, 1);
+    color: rgba(255, 255, 255, 1);
+    padding: 16px 70px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600px;
+}
+
+.product-card button:hover {
+  background: #c65900;
+}
+
+
+.seller{
+    display: flex;
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 120px;
+    gap: 30px;
+}
+.seller img{
+    width: 550px;
+    height: 590px;
+}
+.sell-title{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.sell-dis{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 22px;
+}
+
+.sell-dis li{
+     padding-bottom: 20px;
+
+}
